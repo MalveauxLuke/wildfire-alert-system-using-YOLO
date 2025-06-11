@@ -39,7 +39,7 @@ Two models trained **from scratch** on the final dataset:
 | YOLOv11s | 9 M    | **0.84**       | 0.74          | **0.79**         | **Production** |
 | YOLOv11m | 25 M   | 0.86           | **0.738**      | 0.80             | Validation     |
 
-Smoke performance was heabily prioritized because it provides the earliest visual cue of a developing wildfire.
+Smoke performance was heavily prioritized because it provides the earliest visual cue of a developing wildfire.
 
 ### In-Depth Pipeline Logic
 #### 1. **Frame Throttling**
