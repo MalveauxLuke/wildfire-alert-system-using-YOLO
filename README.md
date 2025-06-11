@@ -6,7 +6,7 @@ A real-time computer vision system that detects wildfire smoke and fire in rural
 
 Wildfires are devastating events that threaten lives and cost billions. In the U.S. alone, damages soared from $8.6 billion (2012–2016) to $81.6 billion (2017–2021), a nearly tenfold increase. Recent fires in the Los Angeles area further highlight how quickly these disasters can escalate and the devestating impact they can have on communities.
 
-These events often begin in remote or unmonitored regions, where early detection is difficult due to limited manpower and infrastructure. This project was driven by the need for a lightweight, real-time detection system capable of identifying fire and smoke, the most reliable and earliest visual indicator of wildfire, using outdoor video streams from fixed cameras or drones. The pipeline was designed to be plug-and-play, easy to deploy, and robust enough to operate continuously on edge devices, enabling greater monitoring coverage without additional human resources.
+These events often begin in remote or unmonitored regions, where early detection is difficult due to limited manpower and infrastructure. This project was driven by the need for a lightweight, real-time detection system capable of identifying both fire and smoke in outdoor video streams, with a focus on smoke detection as it provides the earliest and most dependable visual warning of a potential wildfire. The pipeline was designed to be plug-and-play, easy to deploy, and robust enough to operate continuously on edge devices, enabling greater monitoring coverage without additional human resources.
 
 ### Project Demonstration
 ![Demo of wildfire smoke detection system in action](media/Demo.gif)
