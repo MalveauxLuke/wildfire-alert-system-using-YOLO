@@ -1,0 +1,13 @@
+#test_video : "test_video.mp4"
+stream_url: "http://localhost:5000/video_feed"                # live input source
+img_size: 640                           # model inference resolution
+confidence_threshold: 0.30              # YOLO score filter
+iou_threshold: 0.45                     # NMS overlap filter
+alert_cooldown_seconds: 60              # suppress duplicates
+email:                                  # SMTP settings
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  sender: "wildfiredetectionbot@gmail.com" # sending email
+  password_env: "EMAIL_PASSWORD"        # env var holding password
+  recipient: "dorrotmg@gmail.com"       # recipient email
+log_level: "INFO"                       # logger verbosity
