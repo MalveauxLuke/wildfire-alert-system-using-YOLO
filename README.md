@@ -1,11 +1,11 @@
 # Wildfire Smoke & Fire Detection Pipeline using YOLOv11
 
-A real-time computer vision system that detects wildfire smoke and fire in rural, outdoor video streams using a dual-YOLO architecture, lightweight ensembling, temporal validation logic, and automated email alerts. Built to run on edge devices or servers, the pipeline prioritises early smoke detection – the most reliable indicator of a wildfire – while keeping false positives low.
+A real-time computer vision system that detects wildfire smoke and fire in rural, outdoor video streams using a dual-YOLO architecture, lightweight ensembling, temporal validation logic, and automated email alerts. Built to run on edge devices or servers, the pipeline prioritizes early smoke detection, the most reliable indicator of a wildfire, while keeping false positives low.
 
 ### Motivations
 
 Wildfires are increasingly destructive, causing billions in damage and threatening lives. According to NOAA, wildfire damages in the U.S. rose from 8.6 billion (2012–2016) to 81.6 billion (2017–2021), a nearly tenfold increase. Recent fires in the Los Angeles area further highlight how quickly these disasters can escalate and the immense impact they can have on communities.
-These events often begin in remote or unmonitored regions, where early detection is difficult due to limited manpower and infrastructure. This project was driven by the need for a lightweight, real-time detection system capable of identifying smoke — the most reliable and earliest visual indicator of wildfire — using outdoor video streams from fixed cameras or drones. The pipeline was designed to be plug-and-play, easy to deploy, and robust enough to operate continuously on edge devices, enabling greater monitoring coverage without additional human resources.
+These events often begin in remote or unmonitored regions, where early detection is difficult due to limited manpower and infrastructure. This project was driven by the need for a lightweight, real-time detection system capable of identifying fire and smoke, the most reliable and earliest visual indicator of wildfire, using outdoor video streams from fixed cameras or drones. The pipeline was designed to be plug-and-play, easy to deploy, and robust enough to operate continuously on edge devices, enabling greater monitoring coverage without additional human resources.
 
 ### Project Demonstration
 ![Demo of wildfire smoke detection system in action](media/Demo.gif)
